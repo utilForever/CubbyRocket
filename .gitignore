@@ -1,32 +1,33 @@
-# Prerequisites
-*.d
+# CMake temp/cache files
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+build
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Visual Studio files
+/.vs
 
-# Precompiled Headers
-*.gch
-*.pch
+# Visual Studio Code files
+/.vscode
+*.code-workspace 
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# OSX files
+.DS_Store
 
-# Fortran module files
-*.mod
-*.smod
+# CLion files
+/.idea
+cmake-build-debug
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# vi files
+.clang_complete
+.syntastic_cpp_config
 
-# Executables
-*.exe
-*.out
-*.app
+# Python files
+*.pyc
+/.pytest_cache
